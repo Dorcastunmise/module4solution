@@ -17,7 +17,7 @@
         })
         .then(function (response) {
            return response.data;
-        });
+        }, 200);
   
       };
   
